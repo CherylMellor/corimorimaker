@@ -16,10 +16,12 @@ const PhotoCards = () => {
         {picture: <img src='/Photos/Crochet/Green and white hat.jpg' alt='Green and white hat' height={"auto"} width={"200px"} />, title: "Green and white hat", blurb: 'Green and white hat Info', id: 12},
         {picture: <img src='/Photos/Crochet/Blue and white hat.jpg' alt='Blue and white hat' height={"auto"} width={"200px"} />, title: "Blue and white hat", blurb: 'Blue and white hat Info', id: 13},
         {picture: <img src='/Photos/Crochet/Striped scarf.jpg' alt='Striped scarf' height={"auto"} width={"200px"} />, title: "Striped Scarf", blurb: 'Striped scarf Info', id: 14},
-        {picture: <img src='/Photos/Crochet/Fox cushion.jpg' alt='Fox cushion' height={"auto"} width={"200px"} />, title: "Fox cushion", blurb: 'Fox cushion Info', id: 15},
-        {picture: <img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' height={"auto"} width={"200px"} />, title: "Baby Yoda", blurb: 'Baby Yoda Info', id: 16},
-        {picture: <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' height={"auto"} width={"200px"} />, title: "Elephant", blurb: 'ElephantInfo', id: 17},
-        {picture: <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' height={"auto"} width={"200px"} />, title: "Green Teddy Bear", blurb: 'Green Teddy Bear Info', id: 18}
+        {picture: <img src='/Photos/Crochet/Fox cushion.jpg' alt='Fox cushion' height={"auto"} width={"200px"} />, title: "Fox Cushion", blurb: 'Fox cushion Info', id: 15},
+        {picture: <img src='/Photos/Crochet/Deer cushion.jpg' alt='Deer cushion' height={"auto"} width={"200px"} />, title: "Deer Cushion", blurb: 'Deer Cushion Info', id: 16},
+        {picture: <img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' height={"auto"} width={"200px"} />, title: "Baby Yoda", blurb: 'Baby Yoda Info', link: <a href={"https://sarahmaker.com/crochet-baby-yoda/"}>Link to pattern</a>, id: 17},
+        {picture: <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' height={"auto"} width={"200px"} />, title: "Elephant", blurb: 'ElephantInfo', id: 18},
+        {picture: <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' height={"auto"} width={"200px"} />, title: "Green Teddy Bear", blurb: 'Green Teddy Bear Info', link: <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"} target={"_blank"}>Teddy Bear Pattern Link</a>, id: 19},
+        {picture: <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' height={"auto"} width={"200px"} />, title: "Viking Helmet and Beard", blurb: 'Viking Helmet and Beard Info', link: <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"} target={"_blank"}>Teddy Bear Pattern Link</a>, id: 20}
 
     ]);
 
@@ -34,6 +36,7 @@ const PhotoCards = () => {
             </div>
                 <div>
             <p>{info.blurb}</p>
+                    <p>{info.link}</p>
                 </div>
         </div>
                 ))}

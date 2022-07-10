@@ -3,15 +3,18 @@ import {useState} from "react";
 const PhotoCardQuilts = () => {
 
 const [quilts, setQuilts] = useState([
-    {picture: <img src='/Photos/Baby MS quilt.jpg' alt='Quilt' height={"auto"} width={"250px"} />, title: "Baby MS Quilt", blurb: 'Baby MS Quilt Info', id: 1},
-    {picture: <img src='/Photos/GIlls wedding quilt.jpg' alt='Quilt' height={"auto"} width={"250px"} />, title: "Gills Quilt", blurb: 'Gills Quilt Info', id: 2},
-    {picture: <img src='/Photos/Andys quilt 6.jpg' alt='Quilt' height={'auto'} width={"250px"} />, title: "Andys Quilt", blurb: 'Andys quilt Quilt Info', id: 3},
-    {picture: <img src='/Photos/Living with MS quilt.jpg' alt='Quilt' height={"auto"} width={"250px"} />, title: "Living with MS Quilt", blurb: 'Living with MS Quilt Info', id: 4},
-    {picture: <img src='/Photos/MS quilt.jpg' alt='Quilt' height={"250px"} width={"auto"} />, title: "MS Quilt", blurb: 'MS Quilt Info', id: 5},
-    {picture: <img src='/Photos/Yellow baby quilt.jpg' alt='Quilt' height={"auto"} width={"250px"} />, title: "Yellow baby Quilt", blurb: 'Yellow baby Quilt Info', id: 6},
-    {picture: <img src='/Photos/Kids scraps quilt.jpg' alt='Quilt' height={"auto"} width={"250px"} />, title: "Kids scraps Quilt", blurb: 'Kids scraps Quilt Info', id: 7},
-    {picture: <img src='/Photos/Table runner.jpg' alt='Table runner' height={"auto"} width={"250px"} />, title: "Table Runner", blurb: 'Table runner Info', id: 8},
-    {picture: <img src='/Photos/Coasters.jpg' alt='Coasters' height={"auto"} width={"250px"} />, title: "Coasters", blurb: 'Coasters Info', id: 9},
+    {picture: <img src='/Photos/Baby MS quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Baby MS Quilt", blurb: 'Baby MS Quilt Info', id: 1},
+    {picture: <img src='/Photos/Gills wedding quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Gills Quilt", blurb: 'Gills Quilt Info', id: 2},
+    {picture: <img src='/Photos/Andys quilt.jpg' alt='Quilt' height={'auto'} width={"200px"} />, title: "Andys Quilt", blurb: 'Andys quilt Quilt Info', id: 3},
+    {picture: <img src='/Photos/Living with MS quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Living with MS Quilt", blurb: 'Living with MS Quilt Info', id: 4},
+    {picture: <img src='/Photos/MS quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "MS Quilt", blurb: 'MS Quilt Info', id: 5},
+    {picture: <img src='/Photos/Yellow baby quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Yellow baby Quilt", blurb: 'Yellow baby Quilt Info', id: 6},
+    {picture: <img src='/Photos/Kids scraps quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Kids scraps Quilt", blurb: 'Kids scraps Quilt Info', id: 7},
+    {picture: <img src='/Photos/Judith quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Judith Quilt", blurb: 'JudithQuilt Info', id: 8},
+    {picture: <img src='/Photos/Mum and Dad quilt.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Mum and Dad Quilt", blurb: 'Mum and Dad Quilt Info', id: 9},
+    {picture: <img src='/Photos/Valencia quilt 4.jpg' alt='Quilt' height={"auto"} width={"200px"} />, title: "Valencia Quilt", blurb: 'Valencia Quilt Info', id: 10},
+    {picture: <img src='/Photos/Table runner.jpg' alt='Table runner' height={"auto"} width={"200px"} />, title: "Table Runner", blurb: 'Table runner Info', id: 11},
+    {picture: <img src='/Photos/Coasters.jpg' alt='Coasters' height={"auto"} width={"200px"} />, title: "Coasters", blurb: 'Coasters Info', id: 12},
 
 ]);
 
@@ -19,7 +22,7 @@ const [quilts, setQuilts] = useState([
         <div className='photo-card-section'>
             {quilts.map((quilt) => (
         <div className='photo-cards' key={quilt.id}>
-            <div> {quilt.picture}</div>
+            <div style={{margin: '0 auto'}}> {quilt.picture}</div>
             <div>
             <h2>{quilt.title}</h2>
             </div>
