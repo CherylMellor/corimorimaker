@@ -22,12 +22,14 @@ const [quilts, setQuilts] = useState([
         <div className='photo-card-section'>
             {quilts.map((quilt) => (
         <div className='photo-cards' key={quilt.id}>
-            <div style={{margin: '0 auto'}}> {quilt.picture}</div>
+            <div style={{margin: 'auto'}}> {quilt.picture}</div>
             <div>
-            <h2>{quilt.title}</h2>
+            <h2 style={{borderTop: 'solid 2px #708c82',
+                paddingTop: '15px', textAlign: 'center', color: '#275263'
+            }}>{quilt.title}</h2>
             </div>
                 <div>
-            <p>{quilt.blurb}</p>
+            <p style={{marginTop: '10px', textAlign: 'center'}}>{quilt.blurb}</p>
                 </div>
         </div>
                 ))}

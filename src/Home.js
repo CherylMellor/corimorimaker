@@ -7,11 +7,12 @@ const Home = () => {
     <div className={'intro-section'}>
     <div className={'pic-box'}>
     <img src={Selfie} alt="Cheryl Mellor selfie" className={'selfie'}/>
-    <p className="introduction">Hello. My name is Cheryl Mellor and I love crafting.</p>
         </div>
     <div>
-<p>I started with a needle and thread and made a baby blanket, decided I liked it so bought a sowing machine. I also love crochet. I picked up the craft 5 years ago
-        with a simple hat and have progressed to ever more complicated projects</p>
+        <p className="introduction">Hello. My name is Cheryl Mellor and I love crafting.</p><br></br>
+        <p>I started with a needle and thread and made a baby blanket, decided I liked it so bought a sowing machine. I also love crochet. I picked up the craft 5 years ago
+        with a simple hat and have progressed to ever more complicated projects</p><br></br>
+        <p>Scroll down or click the links to see what I've made</p>
 </div>
 </div>
     <div className='Links_section'>

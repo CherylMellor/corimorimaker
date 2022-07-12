@@ -16,12 +16,12 @@ function App() {
         <div>
         <Home />
         </div>
-          <div className='Amigurumi_section'>
-        <h2 className='section_heading'>Amigurumi projects</h2>
+          <div>
+        <h2 className='section_heading' id='Amigurumi_section'>Amigurumi projects</h2>
           <PhotoCards />
       </div>
-        <div className='Quilting_section>'>
-    <h2 className='section_heading'>Quilting projects</h2>
+        <div>
+    <h2 className='section_heading' id='Quilting_section'>Quilting projects</h2>
     <PhotoCardQuilts />
     </div>
     <div>

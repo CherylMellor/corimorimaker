@@ -2,9 +2,9 @@ import {useState} from "react";
 
 const PhotoCards = () => {
     const [cards, setCards] = useState([
-        {picture: <img src='/Photos/Crochet/Blob monster blue.jpg' alt='Blob Monster' height={"auto"} width={"200px"} />, title: "Blob Monster", blurb: 'Blob Monster Info', id: 1},
-        {picture: <img src='/Photos/Crochet/Blob monster blue ears.jpg' alt='Blob monster' height={"auto"} width={"200px"} />, title: "Blob Monster", blurb: 'Giraffe Info', id: 2},
-        {picture: <img src='/Photos/Crochet/Blob monster purple.jpg' alt='Blob monster' height={"auto"} width={"200px"} />, title: "Giraffe", blurb: 'Giraffe Info', id: 3},
+        {picture: <img src='/Photos/Crochet/Blob monster blue.jpg' alt='Blob Monster' style={{height: 'auto', width: '200px', border: 'solid 1px grey', boxShadow: '3px 3px 3px grey',}} />, title: "Blob Monster", blurb: 'Blob Monster Info Blob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster Info', id: 1},
+        {picture: <img src='/Photos/Crochet/Blob monster blue ears.jpg' alt='Blob monster' height={"auto"} width={"200px"} />, title: "Blob Monster", blurb: 'Blob Monster Info', id: 2},
+        {picture: <img src='/Photos/Crochet/Blob monster purple.jpg' alt='Blob monster' height={"auto"} width={"200px"} />, title: "Blob Monster", blurb: 'Blob Monster Info', id: 3},
         {picture: <img src='/Photos/Crochet/Monster.jpg' alt='Monster' height={"auto"} width={"200px"} />, title: "Monster", blurb: 'Monster Info', id: 4},
         {picture: <img src='/Photos/Crochet/Phoenix 6.jpg' alt='Phoenix' height={"auto"} width={"200px"} />, title: "Phoenix", blurb: 'PhoenixInfo', id: 5},
         {picture: <img src='/Photos/Crochet/Giraffe 7.jpg' alt='Giraffe' height={"auto"} width={"200px"} />, title: "Giraffe", blurb: 'Giraffe Info', id: 6},
@@ -21,22 +21,24 @@ const PhotoCards = () => {
         {picture: <img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' height={"auto"} width={"200px"} />, title: "Baby Yoda", blurb: 'Baby Yoda Info', link: <a href={"https://sarahmaker.com/crochet-baby-yoda/"}>Link to pattern</a>, id: 17},
         {picture: <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' height={"auto"} width={"200px"} />, title: "Elephant", blurb: 'ElephantInfo', id: 18},
         {picture: <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' height={"auto"} width={"200px"} />, title: "Green Teddy Bear", blurb: 'Green Teddy Bear Info', link: <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"} target={"_blank"}>Teddy Bear Pattern Link</a>, id: 19},
-        {picture: <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' height={"auto"} width={"200px"} />, title: "Viking Helmet and Beard", blurb: 'Viking Helmet and Beard Info', link: <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"} target={"_blank"}>Teddy Bear Pattern Link</a>, id: 20}
+        {picture: <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' height={"auto"} width={"200px"} />, title: "Viking Helmet and Beard", blurb: 'Viking Helmet and Beard Info', id: 20}
 
     ]);
 
     return (
+
         <div className='photo-card-section'>
             {cards.map((info) => (
         <div className='photo-cards' key={info.id}>
-            <div style={{margin: '0 auto'}}> {info.picture}</div>
+            <div style={{margin: 'auto'}}> {info.picture}</div>
             <div>
-            <h2 style={{borderTop: 'solid 2px green',
-            paddingTop: '15px'}}>{info.title}</h2>
+            <h2 style={{borderTop: 'solid 2px #708c82',
+            paddingTop: '15px', textAlign: 'center', color: '#275263'
+            }}>{info.title}</h2>
             </div>
-                <div>
-            <p>{info.blurb}</p>
-                    <p>{info.link}</p>
+                <div style={{padding: '0 20px', }}>
+            <p style={{marginTop: '10px', textAlign: 'center'}}>{info.blurb}</p>
+                    <p style={{margin: '7px'}}>{info.link}</p>
                 </div>
         </div>
                 ))}
@@ -44,3 +46,4 @@ const PhotoCards = () => {
     );
 }
 export default PhotoCards;
+
