@@ -101,7 +101,7 @@ p.introduction{
   color: dimgrey;
   background-color: darkseagreen;
   border-top: solid 2px darkolivegreen;
-
+padding-left: 20px;
 }
 
 .photo-cards {
@@ -116,6 +116,15 @@ p.introduction{
   padding: 3px;
   background-color: rgba(204,235,216,0.9);
   overflow: scroll;
+}
+img {
+  border: solid 1px grey;
+  box-shadow: 3px 3px 3px grey;
+}
+
+img:hover {
+ border: solid 5px darkslategray;
+  border-radius: 10px;
 }
 
 .Navbar {

@@ -2,7 +2,7 @@ import {useState} from "react";
 
 const PhotoCards = () => {
     const [cards, setCards] = useState([
-        {picture: <img src='/Photos/Crochet/Blob monster blue.jpg' alt='Blob Monster' style={{height: 'auto', width: '200px', border: 'solid 1px grey', boxShadow: '3px 3px 3px grey',}} />, title: "Blob Monster", blurb: 'Blob Monster Info Blob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster Info', id: 1},
+        {picture: <img src='/Photos/Crochet/Blob monster blue.jpg' alt='Blob Monster' height={"auto"}  width={"200px"} />, title: "Blob Monster", blurb: 'Blob Monster Info Blob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster Info', id: 1},
         {picture: <img src='/Photos/Crochet/Blob monster blue ears.jpg' alt='Blob monster' height={"auto"} width={"200px"} />, title: "Blob Monster", blurb: 'Blob Monster Info', id: 2},
         {picture: <img src='/Photos/Crochet/Blob monster purple.jpg' alt='Blob monster' height={"auto"} width={"200px"} />, title: "Blob Monster", blurb: 'Blob Monster Info', id: 3},
         {picture: <img src='/Photos/Crochet/Monster.jpg' alt='Monster' height={"auto"} width={"200px"} />, title: "Monster", blurb: 'Monster Info', id: 4},
