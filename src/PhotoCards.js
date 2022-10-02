@@ -20,7 +20,7 @@ const PhotoCards = () => {
         {picture: <img src='/Photos/Crochet/Deer cushion.jpg' alt='Deer cushion' height={"auto"} width={"200px"} />, title: "Deer Cushion", blurb: 'Deer Cushion Info', id: 16},
         {picture: <img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' height={"auto"} width={"200px"} />, title: "Baby Yoda", blurb: 'Baby Yoda Info', link: <a href={"https://sarahmaker.com/crochet-baby-yoda/"}>Link to pattern</a>, id: 17},
         {picture: <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' height={"auto"} width={"200px"} />, title: "Elephant", blurb: 'ElephantInfo', id: 18},
-        {picture: <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' height={"auto"} width={"200px"} />, title: "Green Teddy Bear", blurb: 'Green Teddy Bear Info', link: <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"} target={"_blank"}>Teddy Bear Pattern Link</a>, id: 19},
+        {picture: <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' height={"auto"} width={"200px"} />, title: "Green Teddy Bear", blurb: 'Green Teddy Bear Info', link: <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"}>Teddy Bear Pattern Link</a>, id: 19},
         {picture: <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' height={"auto"} width={"200px"} />, title: "Viking Helmet and Beard", blurb: 'Viking Helmet and Beard Info', id: 20}
 
     ]);
