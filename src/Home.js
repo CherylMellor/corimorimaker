@@ -1,17 +1,20 @@
 import Selfie from './Cheryl Mellor.jpg';
 import {useState} from "react";
 import OnHook from "./OnHook";
-
 const Home = () => {
- const [favAmigurumi, setFavAmigurumi] = useState('');
+    const [favAmigurumi, setFavAmigurumi] = useState('');
     const handleFavAmigurumi = () => {
-        setFavAmigurumi ( 'the Monster');
+        setFavAmigurumi('the Monster');
     }
-const [favQuilt, setFavQuilt] = useState('');
-   const handleFavQuilt = () => {
-       setFavQuilt('Judiths quilt');
+    const [favQuilt, setFavQuilt] = useState('');
+    const handleFavQuilt = () => {
+        setFavQuilt('Judiths quilt');
+    }
+    const [favCrochet, setFavCrochet] = useState('');
+    const handleFavCrochet = () => {
+        setFavCrochet('Striped scarf');
+    }
 
-   }
     return (
 <div className={"Home-Page"}>
     <h2 className={"sub-title"}>Welcome to CoriMoriMaker</h2>
@@ -29,12 +32,17 @@ const [favQuilt, setFavQuilt] = useState('');
     <OnHook />
     <div className='links-section'>
         <h2><a href='#Amigurumi_section'>Amigurumi</a></h2>
+        <h2><a href='#Crochet_section'>Crochet</a></h2>
         <h2><a href='#Quilting_section'>Quilts</a></h2>
     </div>
     <div className='button-section'>
         <div className='button-response-section'>
     <button onClick={handleFavAmigurumi}>Click me to find out my favourite amigurumi</button>
     <p>My favourite amigurumi is {favAmigurumi}</p>
+        </div>
+        <div className='button-response-section'>
+            <button onClick={handleFavCrochet}>Click me to find out my Fav Crochet</button>
+            <p>My favourite crochet is {favCrochet}</p>
         </div>
         <div className='button-response-section'>
     <button onClick={handleFavQuilt}>Click me to find out my favourite quilt</button>
