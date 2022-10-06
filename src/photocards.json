@@ -129,20 +129,6 @@
       "blurb" : "Purple dragon Info", 
       "id" : "11"},
     {
-      "picture": "<img src='/Photos/Crochet/Green and white hat.jpg' alt='Green and white hat' />",
-      "title" : "Green and white hat", 
-      "blurb" : "Green and white hat Info", "id" : "12"},
-    {
-      "picture": "<img src='/Photos/Crochet/Blue and white hat.jpg' alt='Blue and white hat' />",
-      "title" : "Blue and white hat", 
-      "blurb" : "Blue and white hat Info",
-      "id" : "13"},
-    {
-      "picture": "<img src='/Photos/Crochet/Striped scarf.jpg' alt='Striped scarf' />",
-      "title" : "Striped Scarf",
-      "blurb" : "Striped scarf Info",
-      "id" : "14"},
-    {
       "picture": "<img src='/Photos/Crochet/Fox cushion.jpg' alt='Fox cushion' />",
       "title" : "Fox Cushion",
       "blurb" : "Fox cushion Info",
@@ -156,8 +142,8 @@
       "picture": "<img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' />",
       "title" : "Baby Yoda",
       "blurb" : "Baby Yoda Info",
-      "link" : "<a href={"https://sarahmaker.com/crochet-baby-yoda/"} target={"_blank"}>Link to pattern</a>",
-    "id", : "17"},
+      "$ref" : "https://sarahmaker.com/crochet-baby-yoda/",
+    "id" : "17"},
     {
       "picture": "<img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' />",
       "title" : "Elephant",
@@ -167,12 +153,28 @@
       "picture": "<img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' />",
       "title" : "Green Teddy Bear",
       "blurb" : "Green Teddy Bear Info",
-      "link" : "<a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"} target={"_blank"}>Teddy Bear Pattern Link</a>",
+      "$ref" : "https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear",
     "id" : "19"},
     {
       "picture": "<img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' />",
       "title": "Viking Helmet and Beard",
       "blurb" : "Viking Helmet and Beard Info",
       "id" : "20"}
-  ]
+  ],
+  "Crochet" : [
+    {
+      "picture": "<img src='/Photos/Crochet/Green and white hat.jpg' alt='Green and white hat' />",
+      "title" : "Green and white hat",
+      "blurb" : "Green and white hat Info", "id" : "12"},
+    {
+      "picture": "<img src='/Photos/Crochet/Blue and white hat.jpg' alt='Blue and white hat' />",
+      "title" : "Blue and white hat",
+      "blurb" : "Blue and white hat Info",
+      "id" : "13"},
+    {
+      "picture": "<img src='/Photos/Crochet/Striped scarf.jpg' alt='Striped scarf' />",
+      "title" : "Striped Scarf",
+      "blurb" : "Striped scarf Info",
+      "id" : "14"}
+    ]
 }
