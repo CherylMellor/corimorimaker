@@ -132,10 +132,11 @@ img {
   margin: auto;
   width: 200px;
   height: auto;
+  border-radius: 10px;
 }
 
 img:hover {
- border: solid 5px darkslategray;
+ border: solid 3px darkslategray;
   border-radius: 10px;
 }
 
