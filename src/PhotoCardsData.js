@@ -1,5 +1,5 @@
 const data = {
- "quilts": [
+ "Quilts": [
   {
     "picture": <img src='/Photos/Baby MS quilt.jpg' alt='Quilt' />,
     "title": "Baby MS Quilt",
@@ -132,50 +132,50 @@ const data = {
       "picture": <img src='/Photos/Crochet/Fox cushion.jpg' alt='Fox cushion' />,
       "title" : "Fox Cushion",
       "blurb" : "Fox cushion Info",
-      "id" : "15"},
+      "id" : "12"},
     {
       "picture": <img src='/Photos/Crochet/Deer cushion.jpg' alt='Deer cushion' />,
       "title" : "Deer Cushion",
       "blurb" : "Deer Cushion Info",
-      "id" : "16"},
+      "id" : "13"},
     {
       "picture": <img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' />,
       "title" : "Baby Yoda",
       "blurb" : "Baby Yoda Info",
       "$ref" : "https://sarahmaker.com/crochet-baby-yoda/",
-    "id" : "17"},
+    "id" : "14"},
     {
       "picture": <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' />,
       "title" : "Elephant",
       "blurb" : "ElephantInfo",
-      "id" : "18"},
+      "id" : "15"},
     {
       "picture": <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' />,
       "title" : "Green Teddy Bear",
       "blurb" : "Green Teddy Bear Info",
       "$ref" : "https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear",
-    "id" : "19"},
+    "id" : "16"},
     {
       "picture": <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' />,
       "title": "Viking Helmet and Beard",
       "blurb" : "Viking Helmet and Beard Info",
-      "id" : "20"}
+      "id" : "17"}
   ],
   "Crochet" : [
     {
       "picture": <img src='/Photos/Crochet/Green and white hat.jpg' alt='Green and white hat' />,
       "title" : "Green and white hat",
-      "blurb" : "Green and white hat Info", "id" : "12"},
+      "blurb" : "Green and white hat Info", "id" : "1"},
     {
       "picture": <img src='/Photos/Crochet/Blue and white hat.jpg' alt='Blue and white hat' />,
       "title" : "Blue and white hat",
       "blurb" : "Blue and white hat Info",
-      "id" : "13"},
+      "id" : "2"},
     {
       "picture": <img src='/Photos/Crochet/Striped scarf.jpg' alt='Striped scarf' />,
       "title" : "Striped Scarf",
       "blurb" : "Striped scarf Info",
-      "id" : "14"}
+      "id" : "3"}
     ]
 }
 export default data
