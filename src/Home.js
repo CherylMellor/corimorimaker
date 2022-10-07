@@ -39,7 +39,7 @@ const Home = () => {
         <h2><a href='#Quilting_section'>Quilts</a></h2>
     </div>
 
-    <div classname='completed-projects'>
+    <div className='completed-projects'>
         <h2 className='section_heading' id='Amigurumi_section'>Amigurumi projects</h2>
         <PhotoCards />
     </div>
