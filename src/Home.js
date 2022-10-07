@@ -1,6 +1,9 @@
 import Selfie from './Cheryl Mellor.jpg';
 import {useState} from "react";
 import OnHook from "./OnHook";
+import PhotoCards from "./PhotoCards";
+import PhotoCardQuilts from "./PhotoCardQuilts";
+
 const Home = () => {
     const [favAmigurumi, setFavAmigurumi] = useState('');
     const handleFavAmigurumi = () => {
@@ -35,6 +38,20 @@ const Home = () => {
         <h2><a href='#Crochet_section'>Crochet</a></h2>
         <h2><a href='#Quilting_section'>Quilts</a></h2>
     </div>
+
+    <div classname='completed-projects'>
+        <h2 className='section_heading' id='Amigurumi_section'>Amigurumi projects</h2>
+        <PhotoCards />
+    </div>
+    <div>
+        <h2 className='section_heading' id='Crochet_section'>Crochet projects</h2>
+        <PhotoCards />
+    </div>
+    <div>
+        <h2 className='section_heading' id='Quilting_section'>Quilting projects</h2>
+        <PhotoCardQuilts />
+    </div>
+
     <div className='button-section'>
         <div className='button-response-section'>
     <button onClick={handleFavAmigurumi}>Click me to find out my favourite amigurumi</button>
