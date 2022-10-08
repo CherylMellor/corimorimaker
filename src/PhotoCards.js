@@ -1,9 +1,9 @@
 import {useState} from "react";
 import PhotoCardInfo from './PhotoCardsData.js'
 
-const PhotoCards = () => {
-    const [cards, setCards] = useState(PhotoCardInfo.Amigurumi);
-
+const PhotoCards = (props) => {
+    const { section } = props
+    const [cards, setCards] = useState(PhotoCardInfo[section])
     return (
 
         <div className='photo-card-section'>

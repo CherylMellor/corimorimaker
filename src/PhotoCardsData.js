@@ -159,8 +159,13 @@ const data = {
       "picture": <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' />,
       "title": "Viking Helmet and Beard",
       "blurb" : "Viking Helmet and Beard Info",
-      "id" : "17"}
-  ],
+      "id" : "17"},
+{
+  "picture": <img src='/Photos/Crochet/Seahorse.jpg' alt='Colorful Seahorse' />,
+    "title": "Seahorse",
+    "blurb" : "SeahorseInfo",
+    "id" : "18"}
+],
   "Crochet" : [
     {
       "picture": <img src='/Photos/Crochet/Green and white hat.jpg' alt='Green and white hat' />,

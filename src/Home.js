@@ -41,15 +41,15 @@ const Home = () => {
 
     <div className='completed-projects'>
         <h2 className='section_heading' id='Amigurumi_section'>Amigurumi projects</h2>
-        <PhotoCards />
+        <PhotoCards section='Amigurumi' />
     </div>
     <div>
         <h2 className='section_heading' id='Crochet_section'>Crochet projects</h2>
-        <PhotoCards />
+        <PhotoCards section='Crochet' />
     </div>
     <div>
         <h2 className='section_heading' id='Quilting_section'>Quilting projects</h2>
-        <PhotoCardQuilts />
+        <PhotoCards section='Quilts' />
     </div>
 
     <div className='button-section'>
