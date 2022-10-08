@@ -2,7 +2,6 @@ import Selfie from './Cheryl Mellor.jpg';
 import {useState} from "react";
 import OnHook from "./OnHook";
 import PhotoCards from "./PhotoCards";
-import PhotoCardQuilts from "./PhotoCardQuilts";
 
 const Home = () => {
     const [favAmigurumi, setFavAmigurumi] = useState('');
