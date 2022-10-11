@@ -2,6 +2,7 @@ import Selfie from './Cheryl Mellor.jpg';
 import {useState} from "react";
 import OnHook from "./OnHook";
 import PhotoCards from "./PhotoCards";
+import PatternLinks from "./PatternLinks";
 
 const Home = () => {
     const [favAmigurumi, setFavAmigurumi] = useState('');
@@ -50,6 +51,10 @@ const Home = () => {
         <h2 className='section_heading' id='Quilting_section'>Quilting projects</h2>
         <PhotoCards section='Quilts' />
     </div>
+
+    <PatternLinks sections='Amigurumi'/>
+    <PatternLinks sections='Crochet'/>
+    <PatternLinks sections='Quilts'/>
 
     <div className='button-section'>
         <div className='button-response-section'>
