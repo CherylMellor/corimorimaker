@@ -17,7 +17,7 @@ const PhotoCards = (props) => {
             </div>
                 <div style={{padding: '0 20px', }}>
             <p style={{marginTop: '10px', textAlign: 'center'}}>{info.blurb}</p>
-                    <p style={{margin: '7px'}}>{info.link}</p>
+                    <p style={{margin: '7px'}}>{info.$ref}</p>
                 </div>
         </div>
                 ))}
