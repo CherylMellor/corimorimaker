@@ -1,8 +1,9 @@
+import React from 'react';
 import Selfie from './Cheryl Mellor.jpg';
 import {useState} from "react";
 import OnHook from "./OnHook";
-import PhotoCards from "./PhotoCards";
 import PatternLinks from "./PatternLinks";
+import CompletedProjectsAccordion from './CompletedProjectsAccordion';
 
 const Home = () => {
     const [favAmigurumi, setFavAmigurumi] = useState('');
@@ -27,8 +28,9 @@ const Home = () => {
         </div>
     <div>
         <p className="introduction">Hello. My name is Cheryl Mellor and I love crafting.</p><br></br>
-        <p>I started with a needle and thread and made a baby blanket, decided I liked it so bought a sowing machine. I also love crochet. I picked up the craft 5 years ago
-        with a simple hat and have progressed to ever more complicated projects</p><br></br>
+        <p>I started crafting after being diagnosed with Multiple Sclerosis, in a bid to maintain my manual dexterity. First, project was to hand sew a baby's blanket, I liked seeing something come together from its component parts, but hand sewing took sooo long, so I bought a sowing machine. Now needing something else to test and maintain manual dexterity I took a turn at crochet, turns out I like tat too, so now I have 2 hobbies.
+        <p>I like to make items and use them as a thank you gifts for donations to my #BikeMS fundraising efforts.</p>
+        Many of my quilts are also used in fundraising for the National Multiple Sclerosis Society, after all their mission is to cure MS. </p><br></br>
         <p>Scroll down or click the links to see what I've made</p>
 </div>
 </div>
@@ -40,16 +42,9 @@ const Home = () => {
     </div>
 
     <div className='completed-projects'>
-        <h2 className='section_heading' id='Amigurumi_section'>Amigurumi projects</h2>
-        <PhotoCards section='Amigurumi' />
-    </div>
-    <div>
-        <h2 className='section_heading' id='Crochet_section'>Crochet projects</h2>
-        <PhotoCards section='Crochet' />
-    </div>
-    <div>
-        <h2 className='section_heading' id='Quilting_section'>Quilting projects</h2>
-        <PhotoCards section='Quilts' />
+
+        <CompletedProjectsAccordion/>
+
     </div>
 
     <PatternLinks sections='Amigurumi'/>
