@@ -35,11 +35,6 @@ const Home = () => {
 </div>
 </div>
     <OnHook />
-    <div className='links-section'>
-        <h2><a href='#Amigurumi_section'>Amigurumi</a></h2>
-        <h2><a href='#Crochet_section'>Crochet</a></h2>
-        <h2><a href='#Quilting_section'>Quilts</a></h2>
-    </div>
 
     <div className='completed-projects'>
 
