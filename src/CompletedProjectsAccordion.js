@@ -13,7 +13,7 @@ import PhotoCards from "./PhotoCards";
 const CompletedProjectsAccordion = () => {
 
     return (
-<div>
+
     <Accordion>
         <AccordionItem>
             <AccordionItemHeading>
@@ -37,6 +37,5 @@ const CompletedProjectsAccordion = () => {
             <PhotoCards section='Quilts' /></AccordionItemPanel>
     </AccordionItem>
     </Accordion>
-</div>
 )}
 export default CompletedProjectsAccordion
