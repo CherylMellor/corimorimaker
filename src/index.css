@@ -54,12 +54,12 @@ body {
 
 .intro-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.75fr 1.25fr;
   margin: 40px auto 20px auto;
-  width: 70%;
+  width: 80%;
   height: 30%;
   padding-bottom: 30px;
-  border-bottom: ridge 5px #2f6175;
+  border-bottom: ridge 3px #7DA29A;
 }
 
 .title {
@@ -92,8 +92,8 @@ body {
 }
 
 .selfie {
-  height: 200px;
-  width:200px;
+  height: 250px;
+  width: 250px;
   border: solid 3px darkslategrey;
   border-radius: 3px;
   box-shadow: 5px 5px 5px darkslategrey;
@@ -152,11 +152,13 @@ img:hover {
 }
 
 .photo-card-section{
-  height: 100%;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 30px 0;
+  width: 84%;
+  margin: 0 auto;
 }
 
 .Navbar a {
@@ -169,14 +171,37 @@ padding-right: 5px;
 .Amigurumi_section{
   padding: 20px;
 }
+.completed-projects{
+  position: inherit;
+display: flex;
+flex-direction: column;
+align-items: center;}
 
-.section_heading {
+.accordion {
+position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.accordion_section_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px auto;
+  cursor: pointer;
+  width: 80%;
+  padding: 10px;
   font-size: 34px;
   font-weight: 700;
   text-align: center;
   font-family: Courgette, sans-serif;
   color: #0d4531;
-  padding-top: 120px;
+  border-radius: 10px;
+box-shadow: #888888 3px 3px 8px }
+
+.accordion_section_heading:hover {
+  background-color: lightblue;
+  transition-duration: 0.3s;
 }
 
 .button-response-section {
@@ -204,14 +229,15 @@ button {
   height: auto;
   width: 70%;
   margin: 0 auto;
-  border-bottom: ridge 5px #2f6175;
+  border-bottom: ridge 3px #7DA29A;
+  box-shadow: 3px 5px 8px #888888;
   padding: 20px;
 }
 
 .current-section {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 80%;
   height: auto;
   padding: 0 0 20px 0;
   margin: 0 auto;
