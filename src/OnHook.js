@@ -32,7 +32,7 @@ const OnHook = () => {
             <br></br>
             <p>I had a comission to make a Blob Monster in team colors: Blue and Yellow </p>
             <p>This will be a thank you gift for a #BikeMS donation</p>
-            <p>The pattern made by <a href="https://craftyintentions.com/">Crafty Intentions</a>, I purchased from here: <a href="https://www.ravelry.com/patterns/library/blob-monster/">Blob Monster</a></p>
+            <p>The pattern made by Megan Lapp from <a href="https://craftyintentions.com/">Crafty Intentions</a></p> <p>Purchased from here: <a href="https://www.ravelry.com/patterns/library/blob-monster/">Blob Monster</a></p>
         </div>
         <img src='/Photos/Crochet/Blob monster blue with yellow horns.jpg' alt='Crochet Blob Monster' />
     </div>
