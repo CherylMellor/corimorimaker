@@ -17,7 +17,11 @@ body {
   background-repeat: repeat-y;
   background-size: 100% auto;
   z-index: -1;
+}
 
+h1 {
+  color: #0E3368;
+  font-size: 36px;
 }
 
 .h2 {
@@ -55,7 +59,7 @@ body {
 .intro-section {
   display: grid;
   grid-template-columns: 0.75fr 1.25fr;
-  margin: 40px auto 20px auto;
+  margin: 40px auto 10px auto;
   width: 80%;
   height: 30%;
   padding-bottom: 30px;
@@ -66,7 +70,7 @@ body {
   font-size: 40px;
   font-weight: bold;
   color: #0d4531;
-  background-color: darkseagreen;
+  background-image: linear-gradient(90deg, rgba(4,138,74,1) 0%, rgba(120,231,152,0.8281687675070029) 61%, rgba(159,238,217,1) 80%);
   border-bottom: solid 2px darkolivegreen;
   text-align: center;
   position: fixed;
@@ -175,7 +179,8 @@ padding-right: 5px;
   position: inherit;
 display: flex;
 flex-direction: column;
-align-items: center;}
+align-items: center;
+margin-top: 30px;}
 
 .accordion {
 position: relative;
