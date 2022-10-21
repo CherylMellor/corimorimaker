@@ -1,43 +1,34 @@
 import React from 'react';
 import Selfie from './Cheryl Mellor.jpg';
-import {useState} from "react";
 import OnHook from "./OnHook";
 import PatternLinks from "./PatternLinks";
 import CompletedProjectsAccordion from './CompletedProjectsAccordion';
 
 const Home = () => {
-    const [favAmigurumi, setFavAmigurumi] = useState('');
-    const handleFavAmigurumi = () => {
-        setFavAmigurumi('the Monster');
-    }
-    const [favQuilt, setFavQuilt] = useState('');
-    const handleFavQuilt = () => {
-        setFavQuilt('Judiths quilt');
-    }
-    const [favCrochet, setFavCrochet] = useState('');
-    const handleFavCrochet = () => {
-        setFavCrochet('Striped scarf');
-    }
 
     return (
 <div className={"Home-Page"}>
     <h2 className={"sub-title"}>Welcome to CoriMoriMaker</h2>
     <div className={'intro-section'}>
         <div className={'pic-box'}>
-    <img src={Selfie} alt="Cheryl Mellor selfie" className={'selfie'}/>
+            <p className="introduction">Hello. I am Cheryl Mellor, the person behind CoriMoriMaker.</p><br></br>
+            <img src={Selfie} alt="Cheryl Mellor selfie" className={'selfie'}/>
         </div>
     <div>
-        <p className="introduction">Hello. My name is Cheryl Mellor and I love crafting.</p><br></br>
-        <p>I started crafting after being diagnosed with Multiple Sclerosis, in a bid to maintain my manual dexterity. First, project was to hand sew a baby's blanket, I liked seeing something come together from its component parts, but hand sewing took sooo long, so I bought a sowing machine. Now needing something else to test and maintain manual dexterity I took a turn at crochet, turns out I like tat too, so now I have 2 hobbies.
-        <p>I like to make items and use them as a thank you gifts for donations to my #BikeMS fundraising efforts.</p>
-        Many of my quilts are also used in fundraising for the National Multiple Sclerosis Society, after all their mission is to cure MS. </p><br></br>
-        <p>Scroll down or click the links to see what I've made</p>
+        <p>My love of crafting began from a strange start.</p>
+        <p>Many years ago I was diagnosed with Multiple Sclerosis (MS) and was loosing my manual dexterity. I wanted a way to maintain what I had and regain what I'd lost, so I started hand crafting. </p>
+        <p>I chose to hand sew a baby's blanket for my friends first child. Along with regaining my ability to complete small precise movements I gained a love for seeing something come together from its component parts. Hand sewing however was not for me, it takes sooo long to complete a project, hense I now have a sowing machine. This presented me with a dilema, what to do to maintain manual dexterity?  This brought me to crochet, turns out I like that too, now I have 2 hobbies.</p>
+        <p>Thought I love to make items  and gift them to friend to spread some joy. I also make items as a thank you gifts for donations to my #BikeMS fundraising efforts.</p>
+        <p>Scroll down to see what I'm currently working on and what I've completed</p>
 </div>
 </div>
     <OnHook />
 
     <div className='completed-projects'>
-
+        <h1>Maker Gallery</h1>
+        <p style={{
+            marginBottom: '30px',
+        }}>Click on the headings to explore my makes</p>
         <CompletedProjectsAccordion/>
 
     </div>
@@ -46,20 +37,6 @@ const Home = () => {
     <PatternLinks sections='Crochet'/>
     <PatternLinks sections='Quilts'/>
 
-    <div className='button-section'>
-        <div className='button-response-section'>
-    <button onClick={handleFavAmigurumi}>Click me to find out my favourite amigurumi</button>
-    <p>My favourite amigurumi is {favAmigurumi}</p>
-        </div>
-        <div className='button-response-section'>
-            <button onClick={handleFavCrochet}>Click me to find out my Fav Crochet</button>
-            <p>My favourite crochet is {favCrochet}</p>
-        </div>
-        <div className='button-response-section'>
-    <button onClick={handleFavQuilt}>Click me to find out my favourite quilt</button>
-    <p>My favourite quilt is {favQuilt}</p>
-        </div>
-    </div>
 </div>
     )
 }
