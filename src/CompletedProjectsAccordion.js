@@ -13,7 +13,7 @@ import PhotoCards from "./PhotoCards";
 const CompletedProjectsAccordion = () => {
 
     return (
-    <Accordion>
+    <Accordion allowMultipleExpanded allowZeroExpanded>
         <AccordionItem>
             <AccordionItemHeading>
                 <AccordionItemButton><h2 className='accordion_section_heading' id='Amigurumi_section'>Amigurumi</h2></AccordionItemButton>
