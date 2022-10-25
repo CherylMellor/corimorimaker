@@ -96,8 +96,8 @@ h1 {
 }
 
 .selfie {
-  height: 250px;
-  width: 250px;
+  height: auto;
+  width: auto;
   border: solid 3px darkslategrey;
   border-radius: 3px;
   box-shadow: 5px 5px 5px darkslategrey;
@@ -134,9 +134,11 @@ img {
   border: solid 1px grey;
   box-shadow: 3px 3px 3px grey;
   margin: auto;
-  width: 200px;
+  max-width: 200px;
   height: auto;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
 
 img:hover {
@@ -229,14 +231,12 @@ button {
 }
 
 .current-on-hook {
-  display: flex;
-  flex-direction: row;
   height: auto;
   width: 70%;
   margin: 0 auto;
   border-bottom: ridge 3px #7DA29A;
   box-shadow: 3px 5px 8px #888888;
-  padding: 20px;
+  padding: 10px;
 }
 
 .current-section {
