@@ -70,7 +70,7 @@ h1 {
   font-size: 40px;
   font-weight: bold;
   color: #0d4531;
-  background-image: linear-gradient(90deg, rgba(4,138,74,1) 0%, rgba(120,231,152,0.8281687675070029) 61%, rgba(159,238,217,1) 80%);
+  background-image: linear-gradient(90deg, rgba(95,135,129) 0%, rgba(120,231,152) 61%, rgba(159,238,217) 80%);
   border-bottom: solid 2px darkolivegreen;
   text-align: center;
   position: fixed;
@@ -148,12 +148,12 @@ img:hover {
 
 .Navbar {
   position: fixed;
-  top: 6%;
+  top: 0;
   right: 6%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 2px;
   z-index: 1;
 }
 
@@ -169,11 +169,10 @@ img:hover {
 
 .Navbar a {
   color: red;
-  border-right: solid 2px green;
-padding-right: 5px;
-
 }
-
+.Navbar a:hover {
+  color: purple;
+}
 .Amigurumi_section{
   padding: 20px;
 }
@@ -210,9 +209,13 @@ position: relative;
   box-shadow: #888888 3px 3px 8px;
 }
 .accordion__button:hover {
-  background-color: #c2f0f0;
+  background-color: #ccfff2;
   transition-duration: 0.3s;
 }
+.accordion__button[aria-expanded='true'] {
+  background-color: #00cc99;
+}
+
 .arrow {
   display: inline-block;
   position: absolute;
@@ -225,6 +228,9 @@ position: relative;
   border-bottom: 3px solid currentColor;
   border-right: 3px solid currentColor;
   transform: rotate(45deg);
+}
+.arrow[aria-expanded='true'] {
+  transform: rotate(145deg);
 }
 
 [hidden] {
@@ -248,13 +254,6 @@ position: relative;
   100% {
     opacity: 1;
   }
-}
-
-.accordion__button[aria-expanded='true'] {
-  background-color: #00b3b3;
-}
-.arrow[aria-expanded='true'] {
-  transform: rotate(145deg);
 }
 
 .current-on-hook {
