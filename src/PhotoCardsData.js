@@ -78,50 +78,62 @@ const data = {
       "picture" : <img src='/Photos/Crochet/Blob monster blue.jpg' alt='Blob Monster' />,
       "title" : "Blob Monster",
       "blurb" : "Blob Monster Info Blob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster InfoBlob Monster Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/blob-monster",
       "id" : "1"},
     { 
       "picture" : <img src='/Photos/Crochet/Blob monster blue ears.jpg' alt='Blob monster' />,
     "title" : "Blob Monster", 
     "blurb" : "Blob Monster Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/blob-monster",
     "id" : "2"},
     {
       "picture" : <img src='/Photos/Crochet/Blob monster purple.jpg' alt='Blob monster' />,
       "title" : "Blob Monster", 
-      "blurb" : "Blob Monster Info", 
+      "blurb" : "Blob Monster Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/blob-monster",
       "id" : "3"},
     {
       "picture" : <img src='/Photos/Crochet/Monster.jpg' alt='Monster' />,
      "title": "Monster", 
-      "blurb" : "Monster Info", "id" : "4"},
+      "blurb" : "Monster Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/choose-your-own-adventure-monster",
+      "id" : "4"},
     {
       "picture" : <img src='/Photos/Crochet/Phoenix 6.jpg' alt='Phoenix' />,
       "title" : "Phoenix", 
-      "blurb" : "PhoenixInfo", "id": "5"},
+      "blurb" : "PhoenixInfo",
+      "$ref" : "https://www.ravelry.com/patterns/library/phoenix-20",
+      "id": "5"},
     {
       "picture" : <img src='/Photos/Crochet/Giraffe 7.jpg' alt='Giraffe' />,
       "title" : "Giraffe",
       "blurb" : "Giraffe Info",
+      "$ref" : "https://www.etsy.com/listing/528011205/crochet-pattern-giraffe-romy",
       "id" : "6"},
     {
       "picture" : <img src='/Photos/Crochet/Owl blue.jpg' alt='Blue Owl' />,
-      "title" : "Blue owl",
+      "title" : "Owl",
       "blurb" : "Blue owl Info",
+      "$ref" : "https://www.tarturumies.com/english-version/our-amigurumis/amigurumi-pattern-owls/",
       "id" : "7"},
     
     {
       "picture": <img src='/Photos/Crochet/Owl purple.jpg' alt='Purple Owl' />,
-      "title" : "Purple Owl", 
+      "title" : "Owl",
       "blurb" : "Purple owl Info",
+      "$ref" : "https://www.tarturumies.com/english-version/our-amigurumis/amigurumi-pattern-owls/",
       "id" : "8"},
     {
       "picture": <img src='/Photos/Crochet/Squid.jpg' alt='Squid' />,
       "title" : "Squid", 
-      "blurb" : "Squid Info", 
+      "blurb" : "Squid Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/squid-17",
       "id" : "9"},
     {
       "picture": <img src='/Photos/Crochet/Red dragon 5.jpg' alt='Red dragon' />,
       "title" : "Red dragon",
       "blurb" : "Red dragon Info" ,
+      "$ref" : "https://www.etsy.com/uk/listing/666852304/drake-the-dragon-amigurumi-crochet",
       "id" : "10"},
     {
       "picture": <img src='/Photos/Crochet/Purple dragon.jpg' alt='Purple dragon'  />,
@@ -132,11 +144,13 @@ const data = {
       "picture": <img src='/Photos/Crochet/Fox cushion.jpg' alt='Fox cushion' />,
       "title" : "Fox Cushion",
       "blurb" : "Fox cushion Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/pillow-fox",
       "id" : "12"},
     {
       "picture": <img src='/Photos/Crochet/Deer cushion.jpg' alt='Deer cushion' />,
       "title" : "Deer Cushion",
       "blurb" : "Deer Cushion Info",
+      "$ref" : "https://www.ravelry.com/patterns/library/cute-deer-pillow",
       "id" : "13"},
     {
       "picture": <img src='/Photos/Crochet/Baby Yoda.jpg' alt='Baby Yoda' />,
@@ -148,6 +162,7 @@ const data = {
       "picture": <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' />,
       "title" : "Elephant",
       "blurb" : "ElephantInfo",
+      "$ref" : "http://blog-amourfou-crochetenglish.blogspot.com/2016/01/gustav-balancing-elephant.html",
       "id" : "15"},
     {
       "picture": <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' />,
@@ -159,11 +174,13 @@ const data = {
       "picture": <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' />,
       "title": "Viking Helmet and Beard",
       "blurb" : "Viking Helmet and Beard Info",
+      "$ref" : "https://www.youtube.com/watch?v=UctYncZr5q8",
       "id" : "17"},
 {
   "picture": <img src='/Photos/Crochet/Seahorse.jpg' alt='Colorful Seahorse' />,
     "title": "Seahorse",
     "blurb" : "SeahorseInfo",
+  "$ref" : "https://www.ravelry.com/patterns/library/seahorse-32",
     "id" : "18"}
 ],
   "Crochet" : [
