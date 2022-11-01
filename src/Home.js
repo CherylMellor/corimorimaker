@@ -3,7 +3,6 @@ import Selfie from './Cheryl Mellor.jpg';
 import OnHook from "./OnHook";
 import PatternLinks from "./PatternLinks";
 import CompletedProjectsAccordion from './CompletedProjectsAccordion';
-
 const Home = () => {
 
     return (
@@ -33,9 +32,9 @@ const Home = () => {
 
     </div>
 
-    <PatternLinks sections='Amigurumi'/>
-    <PatternLinks sections='Crochet'/>
-    <PatternLinks sections='Quilts'/>
+    <PatternLinks section='Amigurumi'/>
+    <PatternLinks section='Crochet'/>
+    <PatternLinks section='Quilts'/>
 
 </div>
     )
