@@ -1,50 +1,43 @@
 import React, {useState} from 'react'
+import PhotoCardInfo from './PhotoCardsData.js'
 
-
-const SearchBar = () => {
+const SearchBar = (props) => {
+    const {section} = props;
 
     const [searchInput, setSearchInput] = useState("");
-
-    const countries = [
-
-        { name: "Belgium", continent: "Europe", },
-        { name: "India", continent: "Asia",  },
-        { name: "Bolivia", continent: "South America", },
-        { name: "Ghana", continent: "Africa", },
-    ];
+    const [links, setLinks] = useState(PhotoCardInfo[section])
 
     const handleChange = (e) => {
         e.preventDefault();
         setSearchInput(e.target.value);
     };
 
-    let filteredCountries
+    let filteredPatterns
     if (searchInput.length > 0) {
-        filteredCountries = countries.filter((country) => {
-            return country.name.toLowerCase().includes(searchInput.toLowerCase().trim());
+        filteredPatterns = links.filter((pattern) => {
+            return pattern.title.toLowerCase().includes(searchInput.toLowerCase().trim());
         });
     } else {
-        filteredCountries = [...countries]
+        filteredPatterns = [...links]
     }
-
     return <div>
 
         <input
             type="search"
-            placeholder="Search here"
+            placeholder="Search patterns here"
             onChange={handleChange}
             value={searchInput} />
 
         <table>
             <tr>
-                <th>Country</th>
-                <th>Continent</th>
+                <th>Title</th>
+                <th>Pattern Links</th>
             </tr>
 
-            {filteredCountries.map((country) => (
-                <tr key={country.name}>
-                <td>{country.name}</td>
-                <td>{country.continent}</td>
+            {filteredPatterns.map((links) => (
+                <tr key={links.id}>
+                <td>{links.title}</td>
+                <td>{links.$ref}</td>
                 </tr>
             ))}
         </table>

@@ -1,24 +1,14 @@
-import {useState} from "react";
-import PhotoCardInfo from './PhotoCardsData.js'
+import SearchBar from "./SearchBar";
 
 const PatternLinks = (props) => {
-    const {sections} = props
-    const [links, setLinks] = useState(PhotoCardInfo [sections])
+    const {section} = props
     return (
         <div>
+
             <h2 style={{borderTop: 'solid 2px #708c82',
                 paddingTop: '15px', textAlign: 'center', color: '#275263'
-            }}>Links for the patterns I have used can be found here:</h2>
-
-            {links.map((links) => (
-        <div className='pattern-links' key={links.id}>
-                <div>
-                <ul>
-                <li> {links.title} : {links.$ref}</li>
-                </ul>
-        </div>
-                </div>
-                ))}
+            }}>Links to the patterns used can be found here:</h2>
+            <SearchBar section={section} />
             </div>
     );
 }
