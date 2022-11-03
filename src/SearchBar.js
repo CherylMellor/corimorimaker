@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import PhotoCardInfo from './PhotoCardsData.js'
+import searchIcon from "./Search Icon.jpg"
 
 const SearchBar = (props) => {
     const {section} = props;
@@ -21,12 +22,15 @@ const SearchBar = (props) => {
         filteredPatterns = [...links]
     }
     return <div>
-
+<div className="wrapper">
         <input
+            className='searchInput'
             type="search"
             placeholder="Search patterns here"
             onChange={handleChange}
             value={searchInput} />
+    <img className="searchIcon" alt="Search Icon" src={searchIcon} />
+    </div>
 
         <table>
             <tr>

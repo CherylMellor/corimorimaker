@@ -275,3 +275,31 @@ position: relative;
   padding: 0 0 20px 0;
   margin: 0 auto;
 }
+
+table {
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 200px;
+  max-width: 80%;
+  height: 40px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+.searchIcon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  height: 30px;
+  width: 30px;
+}
+
+.searchInput {
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+}
