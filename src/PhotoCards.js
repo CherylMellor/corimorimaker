@@ -12,12 +12,12 @@ const PhotoCards = (props) => {
             <div style={{margin: 'auto'}}> {info.picture}</div>
             <div>
             <h2 style={{borderTop: 'solid 2px #708c82',
-            paddingTop: '15px', textAlign: 'center', color: '#275263'
+            paddingTop: '12px', textAlign: 'center', color: '#275263'
             }}>{info.title}</h2>
             </div>
-                <div style={{padding: '0 20px', }}>
-            <p style={{marginTop: '10px', textAlign: 'center'}}>{info.blurb}</p>
-                    <p style={{margin: '7px'}}>{info.$ref}</p>
+                <div style={{padding: '0 10px', }}>
+            <p style={{ textAlign: 'center'}}>{info.blurb}</p>
+                    <p style={{margin: '5px 0'}}>Pattern: {info.$ref}</p>
                 </div>
         </div>
                 ))}
