@@ -21,9 +21,7 @@ const OnHook = () => {
 
             <div style={{gridColumn: 2, alignSelf: "center",
                 textAlign: "center",}}>
-                <img src='/Photos/Crochet/Schnauser.jpg' alt='Crochet Schnauser' style={{
-                maxWidth: '70%',
-                }}/>
+                <img src='/Photos/Crochet/Schnauser.jpg' alt='Crochet Schnauser'/>
             </div>
             </div>
         </div>
@@ -47,8 +45,7 @@ const OnHook = () => {
             alignSelf: "center",
             textAlign: "center",
             }}>
-        <img src='/Photos/Crochet/Blob monster blue with yellow horns.jpg' alt='Crochet Blob Monster' style={{
-        maxWidth: '70%',}}/>
+        <img src='/Photos/Crochet/Blob monster blue with yellow horns.jpg' alt='Crochet Blob Monster' />
             </div>
             </div>
         </div>

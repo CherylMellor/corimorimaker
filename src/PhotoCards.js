@@ -9,7 +9,7 @@ const PhotoCards = (props) => {
         <div className='photo-card-section'>
             {cards.map((info) => (
         <div className='photo-cards' key={info.id}>
-            <div style={{margin: 'auto'}}> {info.picture}</div>
+            <div className='PhotoCards-wrapper' style={{margin: 'auto'}}> {info.picture}</div>
             <div>
             <h2 style={{borderTop: 'solid 2px #708c82',
             paddingTop: '12px', textAlign: 'center', color: '#275263'
