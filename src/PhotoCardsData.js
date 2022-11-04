@@ -205,8 +205,28 @@ const data = {
       "title" : "OctoCat",
       "blurb" : "OctoCat Info - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
-      "id" : "22"}
+      "id" : "22"},
+    {
+      "picture" : <img src='/Photos/Crochet/Unicorn.jpg' alt='Unicorn' />,
+      "title" : "Unicorn",
+      "blurb" : "Unicorn Info - Gifted",
+      "$ref" : <a href={"https://jesshuff.com/jazzy-unicorn-free-amigurumi-pattern/"}>Unicorn pattern from Jess Huff</a>,
+      "id" : "23"},
+    {
+      "picture" : <img src='/Photos/Crochet/Triceratops.jpg' alt='Triceratops' />,
+      "title" : "Triceratops",
+      "blurb" : "Triceratops Info - Gifted",
+      "$ref" : <a href={"https://www.thenicolechase.com/patterns/tanner-the-triceratops"}>Triceratops from Nicole Chase</a>,
+      "id" : "24"},
+    {
+      "picture" : <img src='/Photos/Crochet/Gnome.jpg' alt='Gnome' />,
+      "title" : "Gnome",
+      "blurb" : "Gnome Info - Gifted",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "25"},
 ],
+
+
   "Crochet" : [
     {
       "picture": <img src='/Photos/Crochet/Green and white hat.jpg' alt='Green and white hat' />,
