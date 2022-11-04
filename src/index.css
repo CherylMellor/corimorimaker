@@ -103,9 +103,9 @@ p{
 }
 
 .selfie {
-  height: auto;
+  height: 200px;
   width: auto;
-  border: solid 3px darkslategrey;
+  border: solid 2px darkslategrey;
   border-radius: 3px;
   box-shadow: 5px 5px 5px darkslategrey;
 }
@@ -141,7 +141,9 @@ p.introduction{
   font-size: 20px;
 }
 
-img {
+
+
+.PhotoCards-wrapper img {
   border: solid 1px grey;
   box-shadow: 3px 3px 3px grey;
   margin: auto;
@@ -152,7 +154,7 @@ img {
   overflow: hidden;
 }
 
-img:hover {
+.PhotoCards-wrapper img:hover {
  border: solid 3px darkslategray;
   border-radius: 10px;
 }
@@ -278,6 +280,17 @@ position: relative;
   padding: 10px;
 }
 
+.current-on-hook img {
+  border: solid 1px grey;
+  box-shadow: 3px 3px 3px grey;
+  margin: auto;
+  max-width: 120px;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
 .current-section {
   display: flex;
   flex-direction: row;
@@ -302,10 +315,12 @@ table {
 }
 .searchIcon {
   position: absolute;
-  top: 4px;
-  right: 4px;
-  height: 30px;
-  width: 30px;
+  top: 2px;
+  right: 2px;
+  height: 36px;
+  width: 36px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .searchInput {
