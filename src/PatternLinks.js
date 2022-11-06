@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 const PatternLinks = (props) => {
     const {section} = props
     return (
-        <div>
+        <div id='Pattern_Links'>
 
             <h2 style={{borderTop: 'solid 2px #708c82',
                 paddingTop: '15px', textAlign: 'center', color: '#275263'
