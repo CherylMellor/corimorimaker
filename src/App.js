@@ -1,26 +1,29 @@
+/** @jsxImportSource theme-ui */
+
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
+import {ThemeProvider} from "theme-ui";
+
+const theme = { config: { useBorderBox: false }, breakpoints: ['415px', '769px', '1025px', '1441px'],}
 
 function App() {
 
   return (
+      <ThemeProvider theme={theme}>
 
     <div className="App">
-        <background-image/>
-        <div>
         <h1 className={"title"}>CoriMoriMaker</h1>
-    </div>
         <Navbar/>
-        <div>
+        <div className='Homewrapper'>
         <Home />
+            <Footer/>
         </div>
 
     <div>
-    <Footer/>
 </div>
     </div>
-
+      </ThemeProvider>
   );
 }
 
