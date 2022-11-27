@@ -51,7 +51,6 @@ p{
   flex-direction: column;
   height: 100%;
   width: 100%;
-
 }
 
 .Homewrapper {
@@ -79,6 +78,7 @@ p{
   height: 30%;
   padding-bottom: 30px;
   border-bottom: ridge 3px #7DA29A;
+  gap: 20px;
 }
 
 .title {
@@ -133,7 +133,7 @@ p.introduction{
 }
 
 .photo-cards {
-  height: 400px;
+  height: 380px;
   width: 210px;
   border: solid 1px #708c82;
   border-radius: 5px;
@@ -143,13 +143,12 @@ p.introduction{
   margin: 20px;
   padding: 3px;
   background-color: rgba(204,235,216,0.9);
-  overflow: scroll;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .photo-cards h2{
   font-size: 20px;
 }
-
-
 
 .PhotoCards-wrapper img {
   border: solid 1px grey;
@@ -167,6 +166,15 @@ p.introduction{
   border-radius: 10px;
 }
 
+.photo-card-section{
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  overflow-x: scroll;
+}
+
 .Navbar {
   position: fixed;
   top: 0;
@@ -178,15 +186,6 @@ p.introduction{
   z-index: 1;
 }
 
-.photo-card-section{
-  height: 60vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 84%;
-  margin: 0 auto;
-  overflow: scroll;
-}
 
 .Navbar a {
   color: red;
