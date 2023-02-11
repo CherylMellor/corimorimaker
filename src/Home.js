@@ -10,7 +10,7 @@ const Home = () => {
 <div className={"Home-Page"}>
     <div className={'intro-section'}>
         <div className={'pic-box'}>
-            <p className="introduction">Hello, I am Cheryl Mellor, alias: CoriMoriMaker.</p><br></br>
+            <h2>Hello, I am Cheryl Mellor, alias: CoriMoriMaker.</h2><br></br>
             <img src={Selfie} alt="Cheryl Mellor selfie" className={'selfie'}/>
         </div>
     <div style={{display: 'flex', flexDirection: 'column',}}>
