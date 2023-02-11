@@ -63,7 +63,7 @@ p{
 }
 
 .Home-Page{
-  padding: 40px;
+  padding: 10px 40px;
 }
 .pic-box {
   display: block;
@@ -86,7 +86,7 @@ p{
   font-size: 40px;
   font-weight: bold;
   color: #0d4531;
-  background-image: linear-gradient(90deg, rgba(95,135,129) 0%, rgba(120,231,152) 61%, rgba(159,238,217) 80%);
+  background-color:rgba(140,245,210, 0.6);
   border-bottom: solid 2px darkolivegreen;
   text-align: center;
   position: fixed;
@@ -98,7 +98,7 @@ p{
 .sub-title {
   font-size: 32px;
   font-weight: bold;
-  color: black;
+  color: #0d4531;
   text-align: center;
   position: sticky;
   width: 50%;
@@ -107,7 +107,7 @@ p{
   padding: 20px;
   border: solid 2px grey;
   border-radius: 5px;
-  background-image: linear-gradient(90deg, rgba(4,138,74,1) 0%, rgba(120,231,152,0.8281687675070029) 61%, rgba(159,238,217,1) 80%);
+  background-color: rgba(146,245,222,0.75);
   box-shadow: 5px 5px 10px grey;
 }
 
@@ -360,6 +360,13 @@ table a {
   border: 2px solid grey;
   border-radius: 5px;
   padding: 5px;
+}
+
+button{
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: blue;
 }
 
 #Amigurumi_section:target {margin-top: 200px}
