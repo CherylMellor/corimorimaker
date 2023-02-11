@@ -2,7 +2,7 @@ const FutureProjects = () => {
 
     return (
         <div className='future-projects'>
-           <h2 style={{textAlign: 'center', color: '#275263', paddingBottom: '5px',}}>Future Projects</h2>
+           <h1 style={{textAlign: 'center', paddingBottom: '5px',}}>Future Projects</h1>
                <h3 style={{textAlign: 'center',}}>Here are a few things that I'm considering for my next project</h3>
            <ul>
                <li>Robots - crochet pattern already purchased from Crafty Intentions</li>
