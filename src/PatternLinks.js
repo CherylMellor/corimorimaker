@@ -5,9 +5,9 @@ const PatternLinks = (props) => {
     return (
         <div id='Pattern_Links'>
 
-            <h2 style={{borderTop: 'solid 2px #708c82',
-                paddingTop: '15px', textAlign: 'center', color: '#275263', width: '80%', margin: '0 auto',
-            }}>Links to the patterns used can be found here:</h2>
+            <h1 style={{borderTop: 'solid 2px #708c82',
+                padding: '20px 0', textAlign: 'center', width: '80%', margin: '0 auto',
+            }}>Links to the patterns used can be found here:</h1>
             <SearchBar section={section} />
             </div>
     );
