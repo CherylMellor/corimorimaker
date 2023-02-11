@@ -13,7 +13,7 @@ function App() {
       <ThemeProvider theme={theme}>
 
     <div className="App">
-        <h1 className={"title"}>CoriMoriMaker</h1>
+        <h1 className={"title"}>Welcome to CoriMoriMaker</h1>
         <Navbar/>
         <div className='Homewrapper'>
         <Home />

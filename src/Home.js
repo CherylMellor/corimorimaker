@@ -8,17 +8,16 @@ const Home = () => {
 
     return (
 <div className={"Home-Page"}>
-    <h2 className={"sub-title"}>Welcome to CoriMoriMaker</h2>
     <div className={'intro-section'}>
         <div className={'pic-box'}>
-            <p className="introduction">Hello. I am Cheryl Mellor, the person behind CoriMoriMaker.</p><br></br>
+            <p className="introduction">Hello, I am Cheryl Mellor, alias: CoriMoriMaker.</p><br></br>
             <img src={Selfie} alt="Cheryl Mellor selfie" className={'selfie'}/>
         </div>
-    <div>
+    <div style={{display: 'flex', flexDirection: 'column',}}>
         <p>I started my crafting adventure after being diagnosed with Multiple Sclerosis.</p>
-        <p> My manual dexterity was waining. I wanted a way to maintain what I had and regain what I'd lost, so I started hand crafting. </p>
-        <p>A friend of mine was pregnant with her first child and I saw this as a perfect opportunity to hand sew a baby's blanket. Along with regaining my ability to complete small precise movements I gained a love for seeing something come together from its component parts. Hand sewing however was not for me, it takes sooo long to complete a project, hence I now have a sowing machine. This presented me with a dilemma, what to do to maintain my manual dexterity?  This brought me to crochet, turns out I like that too, now I have 2 hobbies.</p>
-        <p>Thought I love to make items and gift them to friends to spread some joy. I also make items as a thank you gifts for donations to my #BikeMS fundraising efforts.</p>
+        <p> My manual dexterity was waining and I wanted a way to maintain what I had and regain what I'd lost, so I started hand crafting. </p>
+        <p>I had a sewing kit and bought some fabric and hand sowed a bespoke baby blanket for my friends first child. Along with regaining my ability to complete small precise movements, I gained a love for seeing something come together from its component parts. Hand sewing however was not for me, instead I bought a sowing machine and quilting is so much quicker but still fun. This presented me with a dilemma, what to do to maintain my manual dexterity?  This brought me to crochet, turns out I like that too, now I have 2 hobbies.</p>
+        <p>I love to make items to gift to friends just to spread some joy. But I also make items as a thank you gifts for donations to my #BikeMS fundraising.</p>
         <p>Scroll down to see what I'm currently working on and what I've completed</p>
 </div>
 </div>
@@ -32,7 +31,6 @@ const Home = () => {
 
     </div>
    <FutureProjects/>
-
     <PatternLinks section='Amigurumi'/>
     <PatternLinks section='Crochet'/>
     <PatternLinks section='Quilts'/>
