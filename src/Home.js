@@ -24,9 +24,9 @@ const Home = () => {
     <OnHook />
     <div className='completed-projects'>
         <h1>Maker Gallery</h1>
-        <p style={{
+        <h2 style={{
             marginBottom: '30px',
-        }}>Click on the headings to explore my makes</p>
+        }}>Click on the headings to explore my makes</h2>
         <CompletedProjectsAccordion/>
 
     </div>
