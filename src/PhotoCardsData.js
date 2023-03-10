@@ -82,10 +82,10 @@ const data = {
       "id" : "1"},
     { 
       "picture" : <img src='/Photos/Crochet/Blob monster blue ears.jpg' alt='Blob monster' />,
-    "title" : "Blob Monster", 
-    "blurb" : "Blob Monster Info  - Gifted",
+      "title" : "Blob Monster",
+      "blurb" : "Blob Monster Info  - Gifted",
       "$ref" : <a href={"https://www.ravelry.com/patterns/library/blob-monster"}>Blob Monster from Megan Lapp - Crafty Intentions</a>,
-    "id" : "2"},
+      "id" : "2"},
     {
       "picture" : <img src='/Photos/Crochet/Blob monster purple.jpg' alt='Blob monster' />,
       "title" : "Blob Monster", 
@@ -169,7 +169,7 @@ const data = {
       "title" : "Baby Yoda",
       "blurb" : "Baby Yoda Info - Gifted",
       "$ref" : <a href={"https://sarahmaker.com/crochet-baby-yoda/"}>Baby Yoda from Sarah Maker</a>,
-    "id" : "16"},
+      "id" : "16"},
     {
       "picture": <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' />,
       "title" : "Elephant",
@@ -181,7 +181,7 @@ const data = {
       "title" : "Green Teddy Bear",
       "blurb" : "Green Teddy Bear Info - Gifted",
       "$ref" : <a href={"https://www.knitpaintsew.com/blog/classic-crochet-teddy-bear"}>Teddy Bear from Knit Paint Sew</a>,
-    "id" : "18"},
+      "id" : "18"},
     {
       "picture": <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' />,
       "title": "Viking Helmet and Beard",
@@ -189,10 +189,10 @@ const data = {
       "$ref" : <a href={"https://www.youtube.com/watch?v=UctYncZr5q8"}>Viking Helmet and Beard on YouTube</a>,
       "id" : "19"},
 {
-  "picture": <img src='/Photos/Crochet/Seahorse.jpg' alt='Colorful Seahorse' />,
+    "picture": <img src='/Photos/Crochet/Seahorse.jpg' alt='Colorful Seahorse' />,
     "title": "Seahorse",
     "blurb" : "Seahorse Info - Gifted",
-  "$ref" : <a href={"https://www.ravelry.com/patterns/library/seahorse-32"}>SeaHorse from Megan Lapp - Crafty Intentions</a>,
+    "$ref" : <a href={"https://www.ravelry.com/patterns/library/seahorse-32"}>SeaHorse from Megan Lapp - Crafty Intentions</a>,
     "id" : "20"},
     {
       "picture" : <img src='/Photos/Crochet/Dalek Cafetiere Cosy.jpg' alt='Dalek Cafetiere Cosy' />,
@@ -238,7 +238,7 @@ const data = {
       "id" : "27"},
     {
       "picture" : <img src='/Photos/Crochet/Sausage Dog.jpg' alt='Sausage Dog' />,
-      "title" : "Draft excluder sausage dog",
+      "title" : "Draught excluder sausage dog",
       "blurb" : "Sausage Dog - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "28"},
@@ -248,6 +248,12 @@ const data = {
       "blurb" : "Huey Helicopter - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "29"},
+    {
+      "picture" : <img src='/Photos/Crochet/Schnauser.jpg' alt='A Schnauser dog' />,
+      "title" : "Schnauser",
+      "blurb" : "I thought this little guy was so cute and a perfect gift from my nan so why not ry it",
+      "$ref" : <a href={"https://www.projectarian.com/2017/01/09/amigurumi-dog-fur-free-crochet/"}>Schnauser dog from the Projectarian</a>,
+      "id" : "CurrentOnHook"},
 ],
 
 
