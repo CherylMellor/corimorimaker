@@ -21,7 +21,7 @@ const Home = () => {
         <p>Scroll down to see what I'm currently working on and what I've completed</p>
 </div>
 </div>
-    <OnHook />
+    <OnHook section='Amigurumi' />
     <div className='completed-projects'>
         <h1>Maker Gallery</h1>
         <h2 style={{
