@@ -224,6 +224,30 @@ const data = {
       "blurb" : "Gnome Info - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "25"},
+    {
+      "picture" : <img src='/Photos/Crochet/Jack Skellington.jpg' alt='Jack Skellington' />,
+      "title" : "Jack Skellington",
+      "blurb" : "Jack Skellington - I used most of the pattern found below, but took a few liberties when making the hands and the head and on color choice - Gifted",
+      "$ref" : <a href={"https://spinayarncrochet.com/jack-skellington-free-crochet-pattern/"}>Jack Skellington from Spin A Yarn Crochet</a>,
+      "id" : "26"},
+    {
+      "picture" : <img src='/Photos/Crochet/Hatsune Miku Doll.jpg' alt='Hatsune Miku doll' />,
+      "title" : "Hatsune Miku doll",
+      "blurb" : "Hatsune Miku doll - Gifted",
+      "$ref" : <a href={"https://www.etsy.com/listing/1038452464/miku-princess-amigurumi-pattern-crochet?click_key=295141b1a28a05de9ef241506f72b2a89dae083b%3A1038452464&click_sum=ed6e8fb0&ref=shop_home_active_30&crt=1"}>Hatsune Miku Doll pattern purchase from Etsy - ChrochetPaternGoods</a>,
+      "id" : "27"},
+    {
+      "picture" : <img src='/Photos/Crochet/Sausage Dog.jpg' alt='Sausage Dog' />,
+      "title" : "Draft excluder sausage dog",
+      "blurb" : "Sausage Dog - Gifted",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "28"},
+    {
+      "picture" : <img src='/Photos/Crochet/Huey Helicopter.jpg' alt='A Huey Helicopter' />,
+      "title" : "Huey Helicopter",
+      "blurb" : "Huey Helicopter - Gifted",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "29"},
 ],
 
 
@@ -236,18 +260,26 @@ const data = {
       "picture": <img src='/Photos/Crochet/Blue and white hat.jpg' alt='Blue and white hat' />,
       "title" : "Blue and white hat",
       "blurb" : "Blue and white hat Info",
+      "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "2"},
     {
       "picture": <img src='/Photos/Crochet/Striped scarf.jpg' alt='Striped scarf' />,
       "title" : "Striped Scarf",
       "blurb" : "Striped scarf Info",
+      "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "3"},
     {
       "picture": <img src='/Photos/Crochet/Green and Black Bobble Hat.jpg' alt='Bobble hat with earflaps' />,
       "title" : "EarFlap Bobble Hat",
       "blurb" : "Bobble Hat Info",
       "$ref" : <a href={"https://www.yarnspirations.com/red-heart-comfy-earflap-hat/RHC0116-021875M.html"}>Bobble Hat from Yarnspirations</a>,
-      "id" : "4"}
+      "id" : "4"},
+    {
+      "picture": <img src='/Photos/Crochet/Infinity Scarf.jpg' alt='Coffee colored infinity scarf' />,
+      "title" : "Infinity Scarf",
+      "blurb" : "Infinity Scarf",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "5"}
     ]
 }
 export default data
