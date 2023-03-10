@@ -24,10 +24,8 @@ const OnHook = (props) => {
                     <button><div className='PhotoCards-wrapper' style={{margin: 'auto'}}> {info.picture}</div></button>
                 </div>
                 <div style={{gridColumn: 2,}}>
-                    <h2 style={{borderTop: 'solid 2px #708c82',
-                        paddingTop: '12px', textAlign: 'center', color: '#275263'
-                    }}>{info.title}</h2>
-                    <p style={{ textAlign: 'center'}}>{info.blurb}</p>
+                    <h2 style={{paddingBottom: '10px'}}>{info.title}</h2>
+                    <p>{info.blurb}</p>
                     <p style={{margin: '5px 0'}}>Pattern: {info.$ref}</p>
             </div>
             </div>
