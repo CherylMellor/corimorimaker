@@ -1,9 +1,16 @@
+import PhotoCardInfo from "./PhotoCardsData";
 
-const OnHook = () => {
+const OnHook = (props) => {
+    const {section} = props
+
+    const sectionContent = PhotoCardInfo[section]
+    const info = sectionContent.find(section => section.id === 'CurrentOnHook')
 
     return (
         <div className='current-section'>
-        <div className='current-on-hook'>
+
+                    <div className='current-on-hook' key={info.id}>
+
             <h1 style={{textAlign: 'center',}}>Currently On-Hook</h1>
 
             <div style={{
@@ -14,16 +21,17 @@ const OnHook = () => {
             }}>
                 <div style={{gridColumn: 1, alignSelf: "flex-start",
                     textAlign: "center",}}>
-                    <img src='/Photos/Crochet/Schnauser.jpg' alt='Crochet Schnauser'/>
+                    <button><div className='PhotoCards-wrapper' style={{margin: 'auto'}}> {info.picture}</div></button>
                 </div>
                 <div style={{gridColumn: 2,}}>
-            <h2 style={{paddingBottom: '10px'}}>Crochet Schnauser</h2>
-            <p>I thought this was so cute and had to give it a go.</p>
-                <p>This will be a thank you gift for a #BikeMS donation</p>
-            <p>The free pattern I found on the <a href="https://www.projectarian.com/" >Projectarian</a> website here: <a href="https://www.projectarian.com/2017/01/09/amigurumi-dog-fur-free-crochet/">Schnauser Pattern</a></p>
+                    <h2 style={{borderTop: 'solid 2px #708c82',
+                        paddingTop: '12px', textAlign: 'center', color: '#275263'
+                    }}>{info.title}</h2>
+                    <p style={{ textAlign: 'center'}}>{info.blurb}</p>
+                    <p style={{margin: '5px 0'}}>Pattern: {info.$ref}</p>
             </div>
             </div>
-        </div>
+                    </div>
 
     <div className='current-on-hook'>
         <h1 style={{textAlign: 'center',}}>Recently Completed</h1>
