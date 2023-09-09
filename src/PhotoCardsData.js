@@ -191,7 +191,7 @@ const data = {
     {
       "picture": <img src='/Photos/Crochet/Viking helmet and beard.jpg' alt='Viking helmet and beard' />,
       "title": "Viking Helmet and Beard",
-      "blurb" : "Viking Helmet and Beard Info - GIfted",
+      "blurb" : "Viking Helmet and Beard Info - Gifted",
       "$ref" : <a href={"https://www.youtube.com/watch?v=UctYncZr5q8"}>Viking Helmet and Beard on YouTube</a>,
       "id" : "19"},
 {
@@ -260,24 +260,26 @@ const data = {
       "blurb" : "Huey Helicopter - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "30"},
-    {
-      "picture" : <img src='/Photos/Crochet/Schnauser.jpg' alt='A Schnauser dog' />,
-      "title" : "Schnauser",
-      "blurb" : "I thought this little guy was so cute and a perfect gift from my nan so why not ry it",
-      "$ref" : <a href={"https://www.projectarian.com/2017/01/09/amigurumi-dog-fur-free-crochet/"}>Schnauser dog from the Projectarian</a>,
-      "id" : "CurrentOnHook"},
+
     {
       "picture" : <img src='/Photos/Crochet/Triclops.jpg' alt='A peach colored monster with three eyes' />,
       "title" : "Triclops",
       "blurb" : "This little guy was claimed by my sister-in-law",
       "$ref" : "Designed by YOUnique Crafts, published in Amigurumi Monsters by Meteoor books, 2021" ,
       "id" : "31"},
+
     {
       "picture" : <img src='/Photos/Crochet/YumYum monster front.jpg' alt='A big eyed purple monster with yellow tongue' />,
       "title" : "YumYum Monster",
       "blurb" : "Another fun creature from a book. The book was given to me as a Christmas present",
       "$ref" : "Designed by Dendennis, published in Amigurumi Monsters by Meteoor books, 2021" ,
-      "id" : "32"},
+      "id" : "RecentlyCompleted"},
+    {
+      "picture" : <img src='/Photos/Crochet/Moose.jpg' alt='A crochet moose waiting to be stitched together' />,
+      "title" : "Moose",
+      "blurb" : "This moose is a commission for a friend",
+      "$ref" : <a href={"https://lefthandedcrocheter.com/2017/11/22/marty-the-moose/"}>Marty the Moose from the Left-Handed Crocheter website</a>,
+      "id" : "CurrentOnHook"},
 ],
 
   "Crochet" : [
@@ -341,7 +343,7 @@ const data = {
       "title" : "Black work embroidery",
       "blurb" : "Black work embroider stitched around a dresses collar",
       "$ref" : "Original Make - by CoriMoriMaker",
-      "id" : "4"},
+      "id" : "5"},
         ]
 }
 export default data
