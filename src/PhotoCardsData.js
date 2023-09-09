@@ -71,7 +71,13 @@ const data = {
     "title" : "Coasters",
     "blurb" : "Coasters Info",
     "id" : "12"
-  }
+  },
+   {
+     "picture" : <img src='/Photos/Helen and Alans quilt.jpg' alt='Quilt with five hearts on' />,
+     "title" : "Helen and Alans quilt",
+     "blurb" : "I made a quilt for my cousins wedding. Four hearts to represent the kids and one big heart to represent the coming together of two people",
+     "id" : "13"
+   }
 ],
   "Amigurumi" : [
     { 
@@ -207,55 +213,72 @@ const data = {
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "22"},
     {
+      "picture" : <img src='/Photos/Crochet/OctoCat big.jpg' alt='A big Octocat' />,
+      "title" : "A bigger OctoCat",
+      "blurb" : "When my friend saw the original OctoCat he then wanted a bigger one, so I made this for him. OctoCat Info - Gifted",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "23"},
+    {
       "picture" : <img src='/Photos/Crochet/Unicorn.jpg' alt='Unicorn' />,
       "title" : "Unicorn",
       "blurb" : "Unicorn Info - Gifted",
       "$ref" : <a href={"https://jesshuff.com/jazzy-unicorn-free-amigurumi-pattern/"}>Unicorn pattern from Jess Huff</a>,
-      "id" : "23"},
+      "id" : "24"},
     {
       "picture" : <img src='/Photos/Crochet/Triceratops.jpg' alt='Triceratops' />,
       "title" : "Triceratops",
       "blurb" : "Triceratops Info - Gifted",
       "$ref" : <a href={"https://www.thenicolechase.com/patterns/tanner-the-triceratops"}>Triceratops from Nicole Chase</a>,
-      "id" : "24"},
+      "id" : "25"},
     {
       "picture" : <img src='/Photos/Crochet/Gnome.jpg' alt='Gnome' />,
       "title" : "Gnome",
       "blurb" : "Gnome Info - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
-      "id" : "25"},
+      "id" : "26"},
     {
       "picture" : <img src='/Photos/Crochet/Jack Skellington.jpg' alt='Jack Skellington' />,
       "title" : "Jack Skellington",
       "blurb" : "Jack Skellington - I used most of the pattern found below, but took a few liberties when making the hands and the head and on color choice - Gifted",
       "$ref" : <a href={"https://spinayarncrochet.com/jack-skellington-free-crochet-pattern/"}>Jack Skellington from Spin A Yarn Crochet</a>,
-      "id" : "26"},
+      "id" : "27"},
     {
       "picture" : <img src='/Photos/Crochet/Hatsune Miku Doll.jpg' alt='Hatsune Miku doll' />,
       "title" : "Hatsune Miku doll",
       "blurb" : "Hatsune Miku doll - Gifted",
       "$ref" : <a href={"https://www.etsy.com/listing/1038452464/miku-princess-amigurumi-pattern-crochet?click_key=295141b1a28a05de9ef241506f72b2a89dae083b%3A1038452464&click_sum=ed6e8fb0&ref=shop_home_active_30&crt=1"}>Hatsune Miku Doll pattern purchase from Etsy - ChrochetPaternGoods</a>,
-      "id" : "27"},
+      "id" : "28"},
     {
       "picture" : <img src='/Photos/Crochet/Sausage Dog.jpg' alt='Sausage Dog' />,
       "title" : "Draught excluder sausage dog",
       "blurb" : "Sausage Dog - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
-      "id" : "28"},
+      "id" : "29"},
     {
       "picture" : <img src='/Photos/Crochet/Huey Helicopter.jpg' alt='A Huey Helicopter' />,
       "title" : "Huey Helicopter",
       "blurb" : "Huey Helicopter - Gifted",
       "$ref" : "Original Make - by CoriMoriMaker",
-      "id" : "29"},
+      "id" : "30"},
     {
       "picture" : <img src='/Photos/Crochet/Schnauser.jpg' alt='A Schnauser dog' />,
       "title" : "Schnauser",
       "blurb" : "I thought this little guy was so cute and a perfect gift from my nan so why not ry it",
       "$ref" : <a href={"https://www.projectarian.com/2017/01/09/amigurumi-dog-fur-free-crochet/"}>Schnauser dog from the Projectarian</a>,
       "id" : "CurrentOnHook"},
+    {
+      "picture" : <img src='/Photos/Crochet/Triclops.jpg' alt='A peach colored monster with three eyes' />,
+      "title" : "Triclops",
+      "blurb" : "This little guy was claimed by my sister-in-law",
+      "$ref" : "Designed by YOUnique Crafts, published in Amigurumi Monsters by Meteoor books, 2021" ,
+      "id" : "31"},
+    {
+      "picture" : <img src='/Photos/Crochet/YumYum monster front.jpg' alt='A big eyed purple monster with yellow tongue' />,
+      "title" : "YumYum Monster",
+      "blurb" : "Another fun creature from a book. The book was given to me as a Christmas present",
+      "$ref" : "Designed by Dendennis, published in Amigurumi Monsters by Meteoor books, 2021" ,
+      "id" : "32"},
 ],
-
 
   "Crochet" : [
     {
@@ -286,6 +309,39 @@ const data = {
       "blurb" : "Infinity Scarf",
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "5"}
-    ]
+    ],
+
+  "Embroidery" : [
+    {
+      "picture": <img src='/Photos/Embroidery/Embroidery letter A.jpg' alt='An embroidered letter A' />,
+      "title" : "Embroidery Letter A",
+      "blurb" : "An embroidered letter I from the Book of Kells",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "1"},
+    {
+      "picture": <img src='/Photos/Embroidery/Embroidery letter I.jpg' alt='An embroidered letter I' />,
+      "title" : "Embroidery Letter I",
+      "blurb" : "An embroidered letter I from the Book of Kells",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "2"},
+    {
+      "picture": <img src='/Photos/Embroidery/Embroidery letters M and A.jpg' alt='An embroidered letter M and A' />,
+      "title" : "Embroidery Letter M and A",
+      "blurb" : "An embroidered letter M and A from the Book of Kells",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "3"},
+    {
+      "picture": <img src='/Photos/Embroidery/Michael and Andys flags.jpg' alt='Two flags one with the embroidered letter M and the other with the letter A' />,
+      "title" : "Friend flags",
+      "blurb" : "An embroidered letter M and A from the Book of Kells stitched onto two flags",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "4"},
+    {
+      "picture": <img src='/Photos/Embroidery/Black work embroidery.jpg' alt='Black work embroidery stitched around a dresses collar' />,
+      "title" : "Black work embroidery",
+      "blurb" : "Black work embroider stitched around a dresses collar",
+      "$ref" : "Original Make - by CoriMoriMaker",
+      "id" : "4"},
+        ]
 }
 export default data

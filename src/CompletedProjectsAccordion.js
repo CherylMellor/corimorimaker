@@ -28,6 +28,11 @@ const CompletedProjectsAccordion = () => {
         <AccordionItemPanel>
             <PhotoCards section='Quilts' /></AccordionItemPanel>
     </AccordionItem>
+        <AccordionItem>
+            <AccordionItemButton><h2 id='Embroidery_section'>Embroidery projects</h2><div className={'arrow'}/></AccordionItemButton>
+            <AccordionItemPanel>
+                <PhotoCards section='Embroidery' /></AccordionItemPanel>
+        </AccordionItem>
     </Accordion>
 )}
 export default CompletedProjectsAccordion
