@@ -180,7 +180,7 @@ const data = {
       "picture": <img src='/Photos/Crochet/Elephant.jpg' alt='Elephant' />,
       "title" : "Elephant",
       "blurb" : "ElephantInfo - Gifted",
-      "$ref" : <a href={"http://blog-amourfou-crochetenglish.blogspot.com/2016/01/gustav-balancing-elephant.html"}>Elephant from Amour Fou</a>,
+      "$ref" : <a href={"https://blog-amourfou-crochetenglish.blogspot.com/2016/01/gustav-balancing-elephant.html"}>Elephant from Amour Fou</a>,
       "id" : "17"},
     {
       "picture": <img src='/Photos/Crochet/Teddy bear green.jpg' alt='Green Teddy Bear' />,
@@ -246,7 +246,7 @@ const data = {
       "picture" : <img src='/Photos/Crochet/Hatsune Miku Doll.jpg' alt='Hatsune Miku doll' />,
       "title" : "Hatsune Miku doll",
       "blurb" : "Hatsune Miku doll - Gifted",
-      "$ref" : <a href={"https://www.etsy.com/listing/1038452464/miku-princess-amigurumi-pattern-crochet?click_key=295141b1a28a05de9ef241506f72b2a89dae083b%3A1038452464&click_sum=ed6e8fb0&ref=shop_home_active_30&crt=1"}>Hatsune Miku Doll pattern purchase from Etsy - ChrochetPaternGoods</a>,
+      "$ref" : <a href={"https://www.etsy.com/listing/1038452464/miku-princess-amigurumi-pattern-crochet?click_key=295141b1a28a05de9ef241506f72b2a89dae083b%3A1038452464&click_sum=ed6e8fb0&ref=shop_home_active_30&crt=1"}>Hatsune Miku Doll pattern purchase from Etsy - CrochetPatternGoods</a>,
       "id" : "28"},
     {
       "picture" : <img src='/Photos/Crochet/Sausage Dog.jpg' alt='Sausage Dog' />,
@@ -339,11 +339,23 @@ const data = {
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "4"},
     {
-      "picture": <img src='/Photos/Embroidery/Black work embroidery.jpg' alt='Black work embroidery stitched around a dresses collar' />,
-      "title" : "Black work embroidery",
-      "blurb" : "Black work embroider stitched around a dresses collar",
+      "picture": <img src='/Photos/Embroidery/Blackwork embroidery.jpg' alt='Black work embroidery stitched around a dresses collar' />,
+      "title" : "Blackwork embroidery",
+      "blurb" : "Blackwork embroidery around a dresses collar",
       "$ref" : "Original Make - by CoriMoriMaker",
       "id" : "5"},
+    {
+      "picture": <img src='/Photos/Embroidery/Blackwork embroidered coif.jpg' alt='Black work embroidery used to depict images of flowers, insects and animals on a white coif' />,
+      "title" : "Blackwork embroidery",
+      "blurb" : "Blackwork embroidered coif",
+      "$ref" : "Pattern by Laura Mellin",
+      "id" : "6"},
+    {
+      "picture": <img src='/Photos/Embroidery/Outer front rose bag.jpg' alt='Tudor rose applique on a yellow bag' />,
+      "title" : "Tudor rose bag",
+      "blurb" : "Tudor rose bag",
+      "$ref" : "Rose pattern by Mary Corbet",
+      "id" : "7"},
         ]
 }
 export default data
